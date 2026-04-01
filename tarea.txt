@@ -1,0 +1,4 @@
+Tarea para que mejoren
+
+1. Que el input del numero, se limite a 16 numeros pero que cada 4 numeros, se agregue un espacio
+2. Que los valores que se eliminan, tengan valores por defecto

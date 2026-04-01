@@ -10,13 +10,15 @@ botones.forEach(btn => btn.addEventListener("click", () => {
 }))
 
 function handleInput(valor){
-    if(valor === "RESET"){
+    if(valor === "Reset"){
         currentInput = "";
         display.textContent = "0"
+        return;
     }
     if(valor === "DEL"){
         currentInput = currentInput.slice(0,-1)
         display.textContent = currentInput || 0
+        return;
     }
     if(valor === "="){
         try{
@@ -25,6 +27,7 @@ function handleInput(valor){
         }catch{
             display.textContent = "Error en la operación"
         }
+        return;
     }
     
     currentInput += valor;

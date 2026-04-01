@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Tarjeta</title>
+</head>
+
+<body>
+    <section class="card-frontal">
+        <p id="card-numero">0000 0000 0000 0000</p>
+        <article class="card-info">
+            <p id="card-nombre">Pepito Fulano</p>
+            <p id="card-fecha">00/00</p>
+            <p id="card-cvc">000</p>
+        </article>
+    </section>
+
+    <form>
+
+
+        <label>Numero Tarjeta</label>
+        <input type="text" id="numero" placeholder="ej: 1234 5678 9123 4567">
+        <br>
+
+        <label>Nombre Tarjeta</label>
+        <input type="text" id="nombre" placeholder="ej: Fulanito de tal">
+        <br>
+
+        <label>Fecha Vencimiento</label>
+        <input type="text" id="mes" placeholder="MM">
+        <input type="text" id="anio" placeholder="YY">
+        <br>
+        <label>CVC</label>
+        <input type="text" id="CVC" placeholder="ej: 123">
+    </form>
+
+    <script src="../js/tarjeta.js"></script>
+</body>
+
+</html>
